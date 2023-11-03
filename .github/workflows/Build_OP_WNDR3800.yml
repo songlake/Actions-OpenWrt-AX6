@@ -141,7 +141,7 @@ jobs:
       id: tag
       if: env.UPLOAD_RELEASE == 'true' && !cancelled()
       run: |
-        echo "release_tag=$(date +"%Y.%m.%d-Redmi-AX6")" >> $GITHUB_OUTPUT
+        echo "release_tag=$(date +"%Y.%m.%d-Netgear-WNDR3800")" >> $GITHUB_OUTPUT
         touch release.txt
         echo "WNDR3800：Default IP" >> release.txt
         echo "账号：root" >> release.txt
